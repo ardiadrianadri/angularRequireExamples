@@ -1,0 +1,25 @@
+{
+  "name": "Demo2",
+  "description": "Second demo of Angular + Require",
+  "main": "views/index.ejs",
+  "authors": [
+    "Adrian Ferreres <ardiadrianadri@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angular"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.5.5",
+    "requirejs": "^2.2.0",
+    "angular-ui-router": "^0.2.18"
+  }
+}
