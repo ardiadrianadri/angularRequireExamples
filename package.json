@@ -1,0 +1,19 @@
+{
+  "name": "angular_require",
+  "version": "0.1.0-RC1",
+  "description": "Examples of Angular and Require",
+  "dependencies": {
+    "express": "^4.13.4",
+    "nodemon": "^1.9.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "author": "ardiadrianadri",
+  "license": "ISC"
+}
