@@ -1,0 +1,21 @@
+[{
+  "nombre":"Cliente 1",
+  "apellidos":"Apellido 1",
+  "email":"Cliente1@empresa.com"
+},{
+  "nombre":"Cliente 2",
+  "apellidos":"Apellido 2",
+  "email":"Cliente2@empresa.com"
+},{
+  "nombre":"Cliente 3",
+  "apellidos":"Apellido 3",
+  "email":"Cliente3@empresa.com"
+},{
+  "nombre":"Cliente 4",
+  "apellidos":"Apellido 4",
+  "email":"Cliente4@empresa.com"
+},{
+  "nombre":"Cliente 5",
+  "apellidos":"Apellido 5",
+  "email":"Cliente5@empresa.com"
+}]
