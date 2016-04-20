@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+  </head>
+  <body>
+    <div ng-controller="clientsCtrl as ctrl">
+        <ul ng-if="!ctrl.error">
+            <li ng-repeat="client in ctrl.clientList">
+                Nombre: {{client.nombre}} &nbsp; Apellido: {{client.apellidos}} &nbsp; Email: {{client.email}}
+            </li>
+        </ul>
+        <div ng-if="ctrl.error">
+            <h1>Error:</h1>
+            <h3>{{ctrl.msg}}</h3>
+        </div>
+    </div>
+    <script src="javascripts/libs/requirejs/require.js" data-main="javascripts/app/main.js"></script>
+  </body>
+</html>
