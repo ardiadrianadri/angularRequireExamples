@@ -1,5 +1,5 @@
 define(function (){
-    angular.module('moduloClientes').factory('clientsSrv',['$http','$q', function ($http,$q){
+    angular.module('moduloClientes').registrofactory('clientsSrv',['$http','$q', function ($http,$q){
 
         function ClientServiceClass () {
             this.getListClients = function () {

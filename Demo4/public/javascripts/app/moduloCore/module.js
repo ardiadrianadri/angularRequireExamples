@@ -14,7 +14,7 @@ define(['javascripts/app/moduloCore/loader.js'], function (loader) {
                     loadCtrl:['$q',function($q){
                         var defer = $q.defer();
 
-                        require(['moduloClientes/clientsCtrl'],function (){
+                        require(loader.moduloClientes,function (){
                             defer.resolve();
                         });
 
@@ -30,7 +30,7 @@ define(['javascripts/app/moduloCore/loader.js'], function (loader) {
                         loadCtrl:['$q',function($q){
                             var defer = $q.defer();
 
-                            require(['moduloFacturas/facturasCtrl'],function (){
+                            require(loader.moduloFacturas,function (){
                                 defer.resolve();
                             });
 

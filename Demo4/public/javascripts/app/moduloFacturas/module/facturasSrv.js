@@ -1,5 +1,5 @@
 define(function(){
-    angular.module('moduloFacturas').factory('facturasSrv',['$q','$http',function($q,$http){
+    angular.module('moduloFacturas').registrofactory('facturasSrv',['$q','$http',function($q,$http){
         function facturasServiceClass () {
             this.getFalcturas = function(){
                 var defer = $q.defer();
