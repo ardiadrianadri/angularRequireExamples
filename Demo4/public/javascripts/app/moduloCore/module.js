@@ -41,7 +41,9 @@ define(['javascripts/app/moduloCore/loader.js'], function (loader) {
 
         }]);
 
-    require(loader, function () {
-        angular.bootstrap(document, ['moduloCore']);
+    require(['javascripts/app/moduloCore/loaderNoLazy.js'], function (noLazy) {
+        require(noLazy,function(){
+            angular.bootstrap(document, ['moduloCore']);
+        });
     });
 });
