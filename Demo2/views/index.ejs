@@ -9,12 +9,24 @@
             <li ng-repeat="client in ctrl.clientList">
                 Nombre: {{client.nombre}} &nbsp; Apellido: {{client.apellidos}} &nbsp; Email: {{client.email}}
             </li>
+            <li ng-repeat="address in ctrl.addressList">
+                Calle: {{address.calle}} &nbsp; Piso: {{address.piso}} &nbsp; Puerta: {{address.puerta}}
+            </li>
         </ul>
         <div ng-if="ctrl.error">
             <h1>Error:</h1>
             <h3>{{ctrl.msg}}</h3>
         </div>
     </div>
+
+    <div ng-controller="facturasCtrl as vm">
+        <ul>
+            <li ng-repeat="factura in vm.facturasLst">
+                factura: {{factura.nombre}}
+            </li>
+        </ul>
+    </div>
+
     <script src="javascripts/libs/requirejs/require.js" data-main="javascripts/app/main.js"></script>
   </body>
 </html>

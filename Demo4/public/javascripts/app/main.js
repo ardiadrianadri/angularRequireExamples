@@ -2,6 +2,7 @@ require.config({
     paths:{
         'angular':'../libs/angular/angular',
         'moduloClientes':'moduloClientes/module',
+        'moduloFacturas':'moduloFacturas/module',
         'moduloCore':'moduloCore/module',
         'ui-router': '../libs/angular-ui-router/release/angular-ui-router'
     },
@@ -12,8 +13,11 @@ require.config({
         'moduloClientes':{
             deps:['ui-router']
         },
+        'moduloFacturas':{
+            deps:['ui-router']
+        },
         'moduloCore':{
-            deps:['ui-router','moduloClientes']
+            deps:['ui-router','moduloClientes','moduloFacturas']
         }
     }
 });

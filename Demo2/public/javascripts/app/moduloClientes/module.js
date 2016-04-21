@@ -1,4 +1,4 @@
-define( function (loader){
+define( function (){
     var moduloClientes = angular.module('moduloClientes',[]);
     
 });

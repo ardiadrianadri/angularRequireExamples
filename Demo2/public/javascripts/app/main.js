@@ -2,15 +2,20 @@ require.config({
     paths:{
         'angular':'../libs/angular/angular',
         'moduloClientes':'moduloClientes/module',
-        'moduloCore':'moduloCore/module'
+        'moduloCore':'moduloCore/module',
+        'moduloFacturas': 'moduloFacturas/module'
     },
     shim:{
         'moduloClientes':{
             deps:['angular']
         },
+        'moduloFacturas':{
+            deps:['angular']
+        },
         'moduloCore':{
-            deps:['angular','moduloClientes']
+            deps:['angular','moduloClientes','moduloFacturas']
         }
+
     }
 });
 

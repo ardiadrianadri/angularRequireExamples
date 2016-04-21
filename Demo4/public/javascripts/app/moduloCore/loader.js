@@ -1,5 +1,6 @@
 define(function (){
     return [
-        'moduloClientes/clientsSrv'
+        'moduloClientes/clientsSrv',
+        'moduloFacturas/facturasSrv'
     ];
 });
